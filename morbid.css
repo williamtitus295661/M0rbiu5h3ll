@@ -1,0 +1,147 @@
+body{
+    
+    text-align: center;
+    line-height: 1;
+   
+/* Different borders for each side */
+    position: relative;
+    padding: 20px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background: linear-gradient(black,black) padding-box,
+            linear-gradient(to right, red, orange, yellow) border-box;
+    animation: flicker 1s infinite alternate;
+    
+   
+   
+    text-align: center;
+    background-color:black;
+    background-size: 275%;
+    background-repeat: no-repeat;
+   
+ 
+  
+   
+    }
+    
+    img {
+        margin-top: 30px;
+        margin-bottom: 50px;
+        width: 100%; /* Adjust the percentage as needed */
+        height: auto; /* Maintains the aspect ratio */
+    }
+
+    footer {
+        
+   margin-top: 50px;
+  
+   position: bottom;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+
+   color: red;
+  
+   text-align: center;
+   padding: 5px;
+      }
+      .fire-border {
+        position: auto;
+        padding:300px;
+        border: 5px solid transparent;
+        border-image: url('pure-hell.jpg') 30 round; /* Use an image of fire */
+        animation: flicker 1s infinite alternate;
+    }
+    
+    @keyframes flicker {
+        0% { filter: brightness(1); }
+        50% { filter: brightness(1.2); }
+        100% { filter: brightness(0.8); }
+    }
+    
+      
+   
+
+  
+   
+
+
+
+    
+    
+            
+ 
+          
+    
+ 
+
+
+header {
+
+
+text-align: center;
+padding-bottom: 10px;
+padding-top: 30px;
+
+
+}
+
+h1 {
+
+font-size: 45pt;
+color:red
+hidden;
+
+
+text-shadow: 
+-1px -1px 0 black,  
+1px -1px 0 black,
+-1px  1px 0 black,
+1px  1px 0 black; /* Four shadows to create an outline */
+margin-bottom: 80px;
+margin-top: 80px;
+text-align: center;
+
+}
+
+
+ul, li {
+text-align: left;
+color:brown;
+font: size 20px;
+color:red;
+
+text-shadow: 
+-1px -1px 0 rgb(203, 38, 38),  
+2px -1px 0 rgb(10, 8, 0),
+-1px  1px 0 rgb(214, 10, 10),
+2px  1px 0 rgb(140, 55, 6); 
+
+
+
+}
+p{
+    color:red
+    hidden;
+   
+ 
+  
+    text-shadow: 
+        -1px -1px 0 rgb(203, 38, 38),  
+         2px -1px 0 rgb(13, 13, 12),
+        -1px  1px 0 rgb(214, 10, 10),
+         2px  1px 0 rgb(230, 89, 7);
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
